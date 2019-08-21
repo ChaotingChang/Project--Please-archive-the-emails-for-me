@@ -86,6 +86,6 @@ How did you organize yourself? Did you use any tools?
 ## Links
 Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Repository](https://github.com/ChaotingChang/Project-Week-8-Final-Project)  
+[Slides](https://docs.google.com/presentation/d/1_31WyJRuZVAzHJ3LNYqA1qXgcb4BPY4LoYQ3RQYOI2A/edit#slide=id.p1)  
+[Trello](https://trello.com/invite/b/tmDxpkjY/9a2f4ce2fa925dd477db7fdca7ae0bf5/projecweek8finalproject)  
