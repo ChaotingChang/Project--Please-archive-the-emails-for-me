@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Please archive the emails for me
+*[Chao-Ting, Chang]*
 
-*[Your Cohort, Campus & Date]*
+*[Data Analytics, Barcelona & June 2019]*
 
 ## Content
 - [Project Description](#project-description)
@@ -21,7 +21,9 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
+This project aims to do an automatic income email detection, cleaning and classification. The application of this project is to reduce the time for customer service agents when companies receive emails from clients.  
+
+The detection part includes to detect the email language and email type (spam or not spam). The cleaning part aims to do the text cleaning, email content cleaning, the email title (receiver, date and time, etc) cleaning or even email translation. The classification part is focused on transfering the text into different array (Tfidf), testing different machine learning methods and hyperparameter tunning. And last, if I have time, I will try to put the project into production, which means that put it to a docker and do everything automatically.
 
 <a name="hypotheses-/-questions"></a>
 
@@ -34,10 +36,7 @@ Frame your hypothesis with statistical/data languages (i.e. define Null and Alte
 <a name="dataset"></a>
 
 ## Dataset
-* Where did you get your data? If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-* Did you build your own datset? If so, did you use an API? If so, provide the scripts in your repo.
-* For all types of datasets, provide a description of the size, complexity, and data types included in your dataset, as well as a schema of the tables if necessary.
-* If the question cannot be answered with the available data, why not? What data would you need to answer it better?
+* Personal gmail: As I can't find a proper email dataset, I am going to use my emails from gmail to see if I can do something or not.
 
 <a name="cleaning"></a>
 
@@ -57,6 +56,13 @@ Describe your full process of data wrangling and cleaning. Document why you chos
 ## Model Training and Evaluation
 *Include this section only if you chose to include ML in your project.*
 * Describe how you trained your model, the results you obtained, and how you evaluated those results.
+* 
+    - Natural language processing
+    - Unsupervised learning
+    - Artificial Neural Network
+    - SVM, Naive Bayes, or random forest classification
+    - Docker or Azure (optional)
+
 
 <a name="conclusion"></a>
 
