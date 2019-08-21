@@ -14,8 +14,6 @@
 - [Model Training and Evaluation](#model-training-and-evaluation)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
-- [Workflow](#workflow)
-- [Organization](#organization)
 - [Links](#links)
 
 <a name="project-description"></a>
@@ -53,9 +51,7 @@ After cleaning and group the emails, I found out that 80% of them are just class
 <a name="model-training-and-evaluation"></a>
 
 ## Model Training and Evaluation
-*Include this section only if you chose to include ML in your project.*
-* Describe how you trained your model, the results you obtained, and how you evaluated those results.
-* 
+As I am using unsupervised learning, it is difficult to tell which model performs better. It seems that by using Kmean and Countvectorizer, the given clusters are more sepearted and reasonable. Besides, by looking at the silhouette score, we can tell that the clusters are overlapping. In the other word, the clusters are not clearly separated. From the result of DBSCAN with different minimum sample size, we know that it seems that my emails can be separated into two or three groupds.
 
 
 <a name="conclusion"></a>
@@ -72,16 +68,6 @@ Address any questions you were unable to answer, or any next steps or future ext
 
 <a name="workflow"></a>
 
-## Workflow
-Outline the workflow you used in your project. What were the steps?
-How will you test the success of our analysis or algorithm?
-
-<a name="organization"></a>
-
-## Organization
-How did you organize yourself? Did you use any tools?
-
-<a name="links"></a>
 
 ## Links
 Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
