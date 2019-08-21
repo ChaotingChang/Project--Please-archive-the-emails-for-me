@@ -1,7 +1,7 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
 # Please archive the emails for me
-*[Chao-Ting, Chang]*
+*Chao-Ting, Chang*
 
 *[Data Analytics, Barcelona & June 2019]*
 
