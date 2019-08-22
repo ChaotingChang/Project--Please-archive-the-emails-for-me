@@ -46,7 +46,7 @@ The detection part includes to detect the email language. The cleaning part aims
 After cleaning and group the emails, I found out that 80% of them are just classified as income emails, which is useless for me. Therefore I'd use unsupervised learning to cluster my emails using different methods. The methods I used is as followed:
 * **Vectorizer:** CountVectorizer, TfidfVectorizer, Word2Vec
 * **Unsupervised learning:** Kmean, DBSCAN
-* **Semisupervised learning**
+
 
 <a name="model-training-and-evaluation"></a>
 
@@ -57,14 +57,15 @@ As I am using unsupervised learning, it is difficult to tell which model perform
 <a name="conclusion"></a>
 
 ## Conclusion
-* Summarize your results. What do they mean?
-* What can you say about your hypotheses?
-* Interpret your findings in terms of the human-understandable question you try to answer.
+* Using my gmail data may cause bias, because I always read all my emails and delete the irrelevant/undesired ones. My emails are too monotonos and which makes the text separation more difficult.  
+* Email titles give too few information, text analysis needs more features.  
+* Need more data cleaning, especially to the special symbols (à, è, ì, ò, ù, À, È, Ì, Ò, Ù)  
+* After adding the translated-spanish emails, the separation between clusters increased, meaning that more text variety helps. It's to say, the more data (text variety) we have, the higher possibility we could have a better model.
 
 <a name="future-work"></a>
 
 ## Future Work
-Address any questions you were unable to answer, or any next steps or future extensions to your project.
+To combined word-embedding and semi-supervised learning. Also to do the html cleaning and use the email context to do the training.
 
 <a name="workflow"></a>
 
