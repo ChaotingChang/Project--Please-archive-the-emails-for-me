@@ -71,7 +71,6 @@ To combined word-embedding and semi-supervised learning. Also to do the html cle
 
 
 ## Links
-Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
 
 [Repository](https://github.com/ChaotingChang/Project-Week-8-Final-Project)  
 [Slides](https://docs.google.com/presentation/d/1_31WyJRuZVAzHJ3LNYqA1qXgcb4BPY4LoYQ3RQYOI2A/edit#slide=id.p1)  
